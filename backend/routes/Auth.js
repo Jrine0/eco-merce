@@ -13,5 +13,4 @@ router
     .get("/check-auth",verifyToken,authController.checkAuth)
     .get('/logout',authController.logout)
 
-
 module.exports=router

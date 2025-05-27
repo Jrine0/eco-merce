@@ -50,3 +50,4 @@ server.get("/",(req,res)=>{
 server.listen(8000,()=>{
     console.log('server [STARTED] ~ http://localhost:8000');
 })
+console.log(`server is running on port ${process.env.PORT || 8000}`);
